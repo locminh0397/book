@@ -1,0 +1,37 @@
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.orderList {
+    padding: 10px;
+}
+
+.orderList table {
+    text-align: center;
+}
+
+.orderDetail img {
+    width: 150px;
+}
+
+.orderList .btnCheck {
+    color: #539E31;
+    vertical-align: text-bottom;
+}
+
+.boxOrderDetail {
+    display: flex;
+}
+
+.boxOrderDetail p {
+    margin-right: 20px;
+}
+
+.orderList .success {
+    background-color: #d4edda;
+}
+
+.orderList .error {
+    background-color: #f8d7da;
+}

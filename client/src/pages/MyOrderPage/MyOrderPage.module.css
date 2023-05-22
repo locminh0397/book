@@ -1,0 +1,15 @@
+.orderDetail img {
+    width: 150px;
+}
+
+.orderWrapper .success {
+    background-color: #d4edda;
+}
+
+.orderWrapper .error {
+    background-color: #f8d7da;
+}
+
+.orderWrapper .paid {
+    color: green;
+}

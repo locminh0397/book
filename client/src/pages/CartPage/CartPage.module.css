@@ -1,0 +1,136 @@
+.cart_header {
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.cart_header ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart_header li {
+    display: inline;
+}
+
+.cart_header li:not(:last-child) {
+    padding-right: 10px;
+}
+
+.cart_header li:not(:last-child)::after {
+    content: ">";
+    position: relative;
+    left: 5px;
+}
+
+.cart_header li:last-child {
+    color: red;
+}
+
+.cart_header h1 {
+    color: #539E31;
+}
+
+.cart_table {
+    width: 750px;
+    margin: 10px auto;
+}
+
+.cart_table table {
+    width: 100%;
+    border-top: 1px solid gray;
+
+}
+
+.cart_table td,
+.cart_table th,
+.cart_table tr {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.cart_table td:last-child {
+    border: none;
+}
+
+.cart_voucher {
+    width: 400px;
+    margin: 10px auto;
+    padding: 25px 20px;
+    background-color: rgb(241, 241, 241);
+    height: fit-content;
+}
+.info_right {
+    float: right;
+    color: #539E31;
+    font-weight: bold;
+}
+.cart_info p {
+    background-color: white;
+    padding: 8px 10px;
+    margin: 0px ;
+    font-size: larger;
+    color: gray;
+}
+
+.cart_voucher button {
+    border: none;
+    background-color: #539E31;
+    color: white;
+    padding: 5px;
+}
+.cart_value {
+    color: #539E31;
+    font-size: large;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input input {
+    width: 80%;
+    height: 50px;
+}
+
+.input button {
+    width: 20%;
+}
+
+.pay_button {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.empty {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+}
+
+.empty img {
+    width: 150px;
+}
+
+.backHome {
+    background-color: #17a2b8;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.backHome:hover {
+    color: white;
+    opacity: 0.9;
+}
